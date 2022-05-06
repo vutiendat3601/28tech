@@ -15,6 +15,7 @@ int main()
     cout << m.size() << endl;
     m[2] = 130;
     cout << m.size() << endl;
+    cout << m.contains(2);
     for (pair<int, int> x : m)
         cout << x.first << " " << x.second << endl;
     cout << endl;

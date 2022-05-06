@@ -22,7 +22,7 @@ void dfs(int i)
 
 int main()
 {
-    freopen("dfs.txt", "r", stdin);
+    freopen("../input/dfs.txt", "r", stdin);
     cin >> v;
     cin.ignore();
     for (int i = 1; i <= v; i++)

@@ -34,7 +34,7 @@ void bfs(int i)
 
 int main()
 {
-    freopen("bfs.txt", "r", stdin);
+    freopen("../input/bfs.txt", "r", stdin);
     cin >> v;
     cin.ignore();
     for (int i = 1; i <= v; i++)

@@ -10,7 +10,7 @@ vector<int> g[MAX_N + 1];
 
 int main()
 {
-    freopen("dscanhsangdske.txt", "r", stdin);
+    freopen("../input/dscanhsangdske.txt", "r", stdin);
     cin >> v >> e;
     for (int i = 1; i <= e; i++)
     {
